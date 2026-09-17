@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #1a1a1a;
+  color: white;
+}
+
+main {
+  min-height: 100vh;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.rodada {
+  font-size: 20px;
+  margin-bottom: 35px;
+}
+
+.jogadores {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.jogador {
+  background: white;
+  color: black;
+  width: 350px;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.jogador h2 {
+  margin-top: 0;
+}
+
+.dados {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.dados img {
+  width: 100px;
+  height: 100px;
+}
+
+.soma {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+button {
+  background: #222;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #444;
+}
+
+button:disabled {
+  background: #999;
+  cursor: not-allowed;
+}
+
+.resultado {
+  font-size: 26px;
+  margin: 30px 0 20px;
+}
+
+.placar {
+  font-size: 18px;
+  margin-top: 25px;
+}
+
+.final {
+  background: white;
+  color: black;
+  max-width: 500px;
+  margin: 100px auto;
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.final h1 {
+  margin-bottom: 25px;
+}
